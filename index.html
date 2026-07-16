@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>CIMB MP02</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:"Segoe UI",Tahoma,sans-serif;
+}
+
+body{
+
+background:linear-gradient(135deg,#d71920,#8a0000);
+padding:40px;
+
+}
+
+.container{
+
+max-width:900px;
+margin:auto;
+background:white;
+border-radius:20px;
+padding:35px;
+box-shadow:0 15px 40px rgba(0,0,0,.25);
+
+}
+
+.logo{
+
+font-size:36px;
+font-weight:bold;
+color:#c40000;
+text-align:center;
+
+}
+
+.subtitle{
+
+text-align:center;
+color:#666;
+margin-top:10px;
+margin-bottom:35px;
+
+}
+
+.grid{
+
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:18px;
+
+}
+
+.card{
+
+display:flex;
+justify-content:space-between;
+align-items:center;
+
+padding:18px;
+
+border-radius:12px;
+
+text-decoration:none;
+
+transition:.25s;
+
+font-weight:bold;
+
+}
+
+.card:hover{
+
+transform:translateY(-4px);
+
+box-shadow:0 8px 18px rgba(0,0,0,.2);
+
+}
+
+.pdf{
+
+background:#fff3f3;
+
+border-left:8px solid #d71920;
+
+color:#d71920;
+
+}
+
+.excel{
+
+background:#eefcf0;
+
+border-left:8px solid #1b8f3f;
+
+color:#1b8f3f;
+
+}
+
+.icon{
+
+font-size:30px;
+
+}
+
+.footer{
+
+margin-top:30px;
+
+text-align:center;
+
+color:#888;
+
+font-size:14px;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="logo">🏦 CIMB MP02</div>
+
+<div class="subtitle">
+ระบบดาวน์โหลดเอกสารและไฟล์สำหรับทีมงาน
+</div>
+
+<div class="grid">
+
+<a class="card pdf" href="files/Loan.pdf" download>
+<span>📄 ใบคำขอสินเชื่อ</span>
+<span class="icon">⬇️</span>
+</a>
+
+<a class="card pdf" href="files/PersonalLoan.pdf" download>
+<span>📄 ใบคำขอสินเชื่อบุคคล</span>
+<span class="icon">⬇️</span>
+</a>
+
+<a class="card excel" href="files/Income.xlsx" download>
+<span>📊 คำนวณรายได้</span>
+<span class="icon">⬇️</span>
+</a>
+
+<a class="card pdf" href="files/Interest.pdf" download>
+<span>📄 ดอกเบี้ย</span>
+<span class="icon">⬇️</span>
+</a>
+
+<a class="card excel" href="files/MRTA.xlsx" download>
+<span>📊 MRTA</span>
+<span class="icon">⬇️</span>
+</a>
+
+<a class="card excel" href="files/MRTAPlus.xlsx" download>
+<span>📊 MRTA+</span>
+<span class="icon">⬇️</span>
+</a>
+
+<a class="card excel" href="files/MLTA.xlsx" download>
+<span>📊 MLTA</span>
+<span class="icon">⬇️</span>
+</a>
+
+<a class="card excel" href="files/MLTAPlus.xlsx" download>
+<span>📊 MLTA+</span>
+<span class="icon">⬇️</span>
+</a>
+
+<a class="card excel" href="files/ReduceInterest.xlsx" download>
+<span>📊 ลดดอกเบี้ย</span>
+<span class="icon">⬇️</span>
+</a>
+
+<a class="card excel" href="files/SumStatement.xlsx" download>
+<span>📊 Sum Statement</span>
+<span class="icon">⬇️</span>
+</a>
+
+<a class="card pdf" href="files/Commission.pdf" download>
+<span>📄 ค่าคอมมิชชั่น</span>
+<span class="icon">⬇️</span>
+</a>
+
+</div>
+
+<div class="footer">
+© CIMB MP02 | Document Download Center
+</div>
+
+</div>
+
+</body>
+</html>
